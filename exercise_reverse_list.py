@@ -1,13 +1,17 @@
-# Ejercicio 8: Invertir una lista
+# Ejercicio 9: Verificar si una lista está vacía
 
-def reverse_list(lista):
+def is_empty(lista):
     """
-    Retorna una nueva lista con los elementos en orden inverso.
+    Determina si una lista está vacía.
 
     Args:
         lista: Una lista de elementos
 
     Returns:
-        Una nueva lista con los elementos en orden inverso
+        True si la lista está vacía, False en caso contrario
     """
-    return lista[::-1]
+    if lista== []:
+        return True
+    else:
+        return False
+        
